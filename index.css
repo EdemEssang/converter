@@ -1,4 +1,66 @@
+
+html{
+    background: black;
+    font-family: 'Inter', sans-serif;
+}
+
+
 body{
     text-align: center;
-    /* margin: 0px auto; */
+    font-family: sans-serif 'Inter';
+  
+   
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-family: inherit;
+    margin: 50px auto 0px auto;  
+}
+
+.metric-div{
+    color:white;
+    background: linear-gradient(246.26deg,#585DFE, #FB3796);
+    height: 40%;
+    padding-top: 40px;
+
+}
+
+.title-paragraph{
+    
+    font-family: initial;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+    word-spacing: -0.05em;
+
+}
+
+#digit-holder{
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 24px;
+}
+
+
+.conversion-div{
+    background-color: #FBF7EE;
+    height: 60%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.type-of-metric-conversion{
+font-weight: 900;
+font-size: 16px;
+line-height: 20px;
+}
+
+.units-converted{
+    color: #4E4E4E;
+    font-family: sans-serif;
 }
